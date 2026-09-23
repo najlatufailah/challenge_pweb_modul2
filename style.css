@@ -328,3 +328,25 @@ label {
     color: #3B2A22;
     font-family: "Arial Narrow", cursive;
 }
+
+/* Tombol Filter */
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    background-color: #FFB7D5;
+    color: #3B2A22;
+    border: 2px solid #3B2A22;
+    border-radius: 10px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+  
+.filter-buttons button:hover {
+    background-color: #3B2A22;
+    color: #FFB7D5;
+}
